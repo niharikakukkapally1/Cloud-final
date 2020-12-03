@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/eff3825f-c6b3-4bad-94ca-590a0ba8d303/resourceGroups/Fantasy_Football/providers/Microsoft.Web/sites/Fantasy-Football-League",
+    "appService.deploySubpath": "."
+}

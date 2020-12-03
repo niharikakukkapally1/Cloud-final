@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Registration Page
+</title>
+
+<link rel="stylesheet" type="text/css" href="/stylesheets/register.css">
+</head>
+<style>
+
+#register {
+width: 30%;
+margin: 0px auto;
+padding: 20px;
+border-radius: 0px 0px 10px 10px;
+}
+</style>
+
+<h2 style="font-family: cursive;">Registeration Form</h2>
+
+
+<img src="/images/throw1.webp"  width="400" height="400" align="left">
+<img src="/images/throw2.jpg"  width="400" height="400" align="right" >
+
+<body>
+    <div class="login">    
+
+<form method="post" id="register" action="/register">
+
+<div class="input-group">
+<label> Username</label>
+<input type="text" name="username">
+</div>
+<div class="input-group">
+<label>Email</label>
+<input type="email" name="email">
+</div>
+<div class="input-group">
+<label>First Name</label>
+<input type="text" name="firstname">
+</div>
+<div class="input-group">
+<label>Last Name</label>
+<input type="text" name="lastname">
+</div>
+<div class="input-group">
+<label> Password</label>
+<input type="password" name="password">
+</div>
+<div class="input-group">
+<button type="submit" class="btn"
+name="reg_user">
+Register
+</button>
+</div>
+<p class="signup">
+Already have an account?
+<a href="/Login">
+Login 
+</a>
+</p>
+</form>
+</div>
+</body>
+</html>

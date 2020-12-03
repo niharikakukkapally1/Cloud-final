@@ -1,0 +1,21 @@
+body {
+  font-size: 140%;
+  margin: 20px 500px;
+  padding: 20px;
+  background-image: url("/images/throw3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100px 100px 100px 100px;
+}
+.block {
+  /*width: 30%;*/
+  margin-left: 0px;
+  padding: 50px;
+  background-image: url("/images/bengals.png");
+  border-radius: 100px 100px 100px 100px;
+  color: white;
+  width: 50%;
+}
+h1 {
+  color: white;
+}

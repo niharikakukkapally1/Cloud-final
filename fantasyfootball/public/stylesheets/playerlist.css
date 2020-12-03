@@ -1,0 +1,46 @@
+table.sortable thead {
+  background-color: #eee;
+  color: #666666;
+  font-weight: bold;
+  cursor: default;
+}
+
+table.sortable th {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#players {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-image: url("/images/throw3.jpg");
+}
+
+#players td,
+#players th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: white;
+}
+
+#players th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+body {
+  background-image: url("/images/throw3.jpg");
+}
+.btn {
+  background-color: #002a5c;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  text-align: center;
+}

@@ -1,0 +1,83 @@
+* {
+  /*margin: 5px;*/
+  padding: 3px;
+  width: 250 px;
+  /*border:1px gray;*/
+}
+body {
+  font-size: 140%;
+  background-repeat: spread;
+  background-size: cover;
+  background-position: center center;
+}
+.content {
+  float: center;
+}
+.name {
+  color: rgb(15, 1, 1);
+  text-align: center;
+}
+
+#errormessage {
+  color: white;
+}
+.login {
+  /*width: 30%;*/
+  margin: 20px 500px;
+  padding: 20px;
+  background-image: url("/images/bengals.png");
+  border-radius: 100px 100px 100px 100px;
+}
+
+.input-group label {
+  display: block;
+  color: white;
+  text-align: left;
+  margin: 5px;
+  font-size: 20px;
+}
+.input-group input {
+  display: block;
+  width: 85%;
+}
+.input-group input {
+  height: 32px;
+  width: 85%;
+
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.btn {
+  background-color: #002a5c;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.signup {
+  color: white;
+}
+.signup a {
+  color: white;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  /*border: 1px solid #a94442;*/
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 2px solid #3c763d;
+  margin-bottom: 20px;
+}
